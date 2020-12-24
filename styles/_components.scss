@@ -1,0 +1,20 @@
+.title-container {
+    margin-bottom: 70px;
+
+    span {
+        color: $secondary-color;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 35px;
+        color: $dark;
+        font-family: 'Montserrat', sans-serif;
+    }
+    @media only screen and (max-width: 970px) {
+        margin: 0 20px;
+    }
+}
